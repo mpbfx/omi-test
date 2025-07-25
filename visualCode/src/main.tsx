@@ -1,5 +1,5 @@
 import { render, h } from 'omi'
-import './index.tsx'
+import './components/SortVisualizer'
 import './index.css'
 
 render(<sort-visualizer />, document.getElementById('app')!)
