@@ -11,7 +11,6 @@ export class SortVisualizer extends Component {
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -21,15 +20,12 @@ export class SortVisualizer extends Component {
       justify-content: center;
       align-items: center;
       padding: 2rem 1rem;
-      background: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(10px);
     }
 
     .title {
-      color: white;
       font-size: 2.5rem;
       font-weight: 700;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
       margin: 0;
     }
 
@@ -475,110 +471,6 @@ export class SortVisualizer extends Component {
       background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
       color: #856404;
       border-color: #ffeaa7;
-    }
-
-    /* 响应式设计 */
-    @media (max-width: 1200px) {
-      .main-content {
-        flex-direction: column;
-      }
-      
-      .right-panel {
-        flex: none;
-        min-width: 0;
-        max-width: none;
-      }
-      
-      .stats-grid {
-        grid-template-columns: repeat(4, 1fr);
-      }
-    }
-
-    @media (max-width: 768px) {
-      .title {
-        font-size: 2rem;
-      }
-      
-      .main-content {
-        padding: 1rem;
-        gap: 1rem;
-      }
-      
-      .controls-row {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      
-      .button-group {
-        justify-content: center;
-      }
-      
-      .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-      }
-      
-      .stat-item {
-        padding: 0.5rem;
-      }
-      
-      .stat-value {
-        font-size: 1.25rem;
-      }
-      
-      .stat-label {
-        font-size: 0.625rem;
-      }
-      
-      .legend {
-        gap: 0.75rem;
-        font-size: 0.75rem;
-      }
-      
-      .legend-color {
-        width: 12px;
-        height: 12px;
-      }
-      
-      .current-step {
-        padding: 0.5rem;
-        font-size: 0.75rem;
-      }
-      
-      .code-panel {
-        max-height: 150px;
-        font-size: 0.6875rem;
-        padding: 0.5rem;
-      }
-      
-      .info-header {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.875rem;
-      }
-      
-      .info-content {
-        padding: 0.75rem;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .right-panel {
-        flex: 0 0 auto;
-        min-width: 0;
-      }
-      
-      .stats-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-      
-      .legend {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      
-      .legend-item {
-        justify-content: center;
-      }
     }
   `
 

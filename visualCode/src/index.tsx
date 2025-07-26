@@ -4,7 +4,7 @@
  */
 
 import { render, h } from 'omi'
-import { SortVisualizer } from './components/SortVisualizer'
+import { SortVisualizer } from './components/sort-visualizer'
 
 // 渲染主应用组件
 render(<sort-visualizer />, document.body)
