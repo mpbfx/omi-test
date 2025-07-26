@@ -3,6 +3,9 @@
 
 一个基于 OMI 框架的排序算法可视化工具，使用 TypeScript 和 Vite 构建。
 
+<img width="2976" height="1816" alt="image" src="https://github.com/user-attachments/assets/b3ed3be4-1b41-47ce-b1fa-5b272c65486f" />
+
+
 ## 特性
 
 - 使用 OMI 框架的组件化开发和信号（Signal）状态管理
